@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    box-shadow: 1px 1px 5px black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.instructions {
+    font-size: 25px;
+    color: rgb(140, 0, 255);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    max-width: 960px;
+    padding: 10px;
+    border: skyblue 1px solid;
+}
+
+.item {
+    font-size: 25px;
+    
+    padding: 3px;
+}
+
+.inputs {
+    width: 35px;
+    border: none;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(255, 51, 0);
+    border-radius: 5px;
+}
+
+#input2 {
+    width: 25px;
+}
+
+#input3 {
+    width: 85px;
+}
+
+#input4 {
+    width: 100px;
+}
+
+#input6 {
+    width: 60px;
+}
+
+#input7 {
+    width: 25px;
+}
+
+#input8 {
+    width: 60px;
+}
+
+#input9 {
+    width: 50px;
+}
+
+#input10 {
+    width: 40px;
+}
+
+#input11 {
+    width: 50px;
+}
+
+#input12 {
+    width: 50px;
+}
+
+
+
+.right-image {
+    visibility: visible;
+}
