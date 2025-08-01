@@ -105,7 +105,7 @@ addEventListener('keyup', (e) => {
 })
 
 addEventListener('keyup', (e) => {
-    if (input12.value === "Nice") {
+    if (input12.value === "meet") {
         input12.style.color = 'darkgreen'
         input12.style.backgroundColor = 'yellow'
     }
