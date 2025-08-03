@@ -4,18 +4,25 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(65, 1, 1);
+    background-color: rgb(0, 2, 29);
     cursor: pointer;
+    font-family: 'kanit';
+    font-style: italic;
 }
 
 .grammar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 400px;
-    height: 615px;
+    height: 570px;
     background-color: rgb(109, 1, 1);
-    position: absolute;
-    left: 1430px;
+    position: fixed;
+    left: 1450px;
     top: 10px;
-    font-size: 25px;
+    font-family: 'kanit';
+    font-style: italic;
+    font-size: 20px;
     text-align: center;
     padding: 20px;
     box-shadow: 1px 1px 3px black;
@@ -23,14 +30,25 @@ body {
     color: white;
 }
 
-.grammar-span {
-    font-size: 25px;
+.examples {
+    font-size: 20px;
+    width: 350px;
+    text-align: center;
 }
 
-.grammar-span:hover {
-    font-size: 30px;
+.line {
+    border-bottom: white 1px solid;
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.examples:hover {
     background-color: yellow;
     color: red;
+    box-shadow: 1px 1px 2px black;
+    border-radius: 5px;
+    text-shadow: 1px 1px 2px black;
 }
 
 .hilight {
@@ -39,9 +57,11 @@ body {
 
 .hilight-title {
     color: rgb(255, 0, 212);
+    font-size: 30px;
 }
 
-img {
+.main-img {
+    width: 470px;
     border-radius: 10px;
     margin-bottom: 10px;
     box-shadow: 1px 1px 3px black;
@@ -53,24 +73,32 @@ img {
     margin-bottom: 10px;
 }
 
+.instructions:hover {
+    background-color: lime;
+    color: black;
+    border-radius: 5px;
+}
+
 .container {
     display: grid;
-    grid-template-columns: 420px 420px;
-    max-width: 960px;
-    padding: 10px;
+    grid-template-columns: 470px 470px;
+    max-width: 1000px;
+    padding: 5px;
     background-color: aliceblue;
     box-shadow: 1px 1px 3px black;
     border-radius: 10px;
+    font-family: 'kanit';
+    font-style: italic;
 }
 
 .item {
     font-size: 25px;
-    
-    padding: 3px;
+    padding: 5px;
 }
 
 .inputs {
     width: 35px;
+    height: 25px;
     border: none;
     background-color: rgb(229, 243, 255);
     text-align: center;
@@ -79,6 +107,8 @@ img {
     border-radius: 4px;
     border-bottom: steelblue 1px solid;
     font-family: 'bree serif';
+    font-family: 'kanit';
+    font-style: italic;
 }
 
 #input1 {
@@ -86,7 +116,8 @@ img {
 }
 
 #input2 {
-    width: 40px;
+    width: 25px;
+    margin-left: 2px;
 }
 
 #input3 {
@@ -111,6 +142,10 @@ img {
 
 #input8 {
     width: 40px;
+}
+
+.correct {
+    visibility: hidden;
 }
 
 
